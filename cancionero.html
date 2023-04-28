@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <!-- https://code.jquery.com/jquery-3.5.1.min.js -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="keywords" content="cantautor, música, trova">
+    
+    <title>MostroJovan</title>
+
+    <link rel="shortcut icon" href="/img/Logo.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet"> 
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,100&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="cs/normalize.css">
+    <link rel="stylesheet" href="cs/main02.css">
+
+    <script src="https://kit.fontawesome.com/37ef4fca07.js"></script>
+</head>
+<body>
+    <!--Cabecera-->
+    <header>
+        <div class="container">
+            <a href="html/index.html">
+                <img src="img/Logo.png" alt="" class="logo">
+            </a>
+            
+            <nav>
+                <a href="https://www.facebook.com/mostrojovan/" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/mostrojovan/" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/mostrojovan/?hl=es-la" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="http://youtube.com/MostroJovan" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://soundcloud.com/mostrojovan" target="_blank">
+                    <i class="fab fa-soundcloud"></i>
+                </a>
+            </nav>
+            <a href="#" class="hamb"><i class="fas fa-bars"></i></a>
+        </div>
+    </header>
+
+    <!--Secciones-->
+    <main>
+        <section id="Inicio">
+            <img src="img/bannerprincipal04.jpg" alt="">
+            
+            <div class="bloque-inicio">
+                <div>
+                    <input type="text" class="search form-control" placeholder="Busca tu canción!">
+                </div>
+                
+                <div class="bloque-scroll" >
+                               
+                <table class="table table-bordered" id="userTbl">
+                    <thead>
+                    <tr><th>Canción</th><th>Interprete</th><th>Genero</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Tan Solo</td><td>Mijares</td><td>Balada</td></tr>
+                        <tr><td>Yo Te Amo</td><td>Sandro</td><td>Balada</td></tr>
+                        <tr><td>Cielo</td><td>Benny Ibarra</td><td>Balada</td></tr>
+                        <tr><td>El Amor Despues del Amor</td><td>Fito Paez</td><td>Rock</td></tr>
+                        <tr><td>Inspiración</td><td>Benny Ibarra</td><td>Balada</td></tr>
+                        <tr><td>Desde Que Llegaste</td><td>Reyli</td><td>Balada</td></tr>
+                        <tr><td>Amor Del Bueno</td><td>Reyli</td><td>Balada</td></tr>
+                        <tr><td>Broche de Oro</td><td>Trakalosa de Monterrey</td><td>Banda</td></tr>
+                        <tr><td>Mi Razón De Ser</td><td>Banda MS</td><td>Banda</td></tr>
+                        <tr><td>Eso y Mas</td><td>Joan Sebastian</td><td>Banda</td></tr>
+                        <tr><td>Diseñame</td><td>Joan Sebastian</td><td>Banda</td></tr>
+                        <tr><td>Me Gusta</td><td>Joan Sebastian</td><td>Banda</td></tr>
+                        <tr><td>Tatuajes</td><td>Joan Sebastian</td><td>Banda</td></tr>
+                        <tr><td>Primera Vez</td><td>Ricardo Arjona</td><td>Balada</td></tr>
+                        <tr><td>Desnuda</td><td>Ricardo Arjona</td><td>Balada</td></tr>
+                        <tr><td>Quien Diría?</td><td>Ricardo Arjona</td><td>Balada</td></tr>
+                        <tr><td>Te Conozco</td><td>Ricardo Arjona</td><td>Balada</td></tr>
+                        <tr><td>Señora De Las 4 Décadas</td><td>Ricardo Arjona</td><td>Balada</td></tr>
+                        <tr><td>Por Qué Es Tan Cruel El Amor</td><td>Ricardo Arjona</td><td>Balada</td></tr>
+                        <tr><td>La Mujer Que No Soñe</td><td>Ricardo Arjona</td><td>Balada</td></tr>
+                        <tr><td>De La Noche A La Mañana</td><td>Elefante</td><td>Rock</td></tr>
+                        <tr><td>Angel</td><td>Elefante</td><td>Rock</td></tr>
+                        <tr><td>Durmiendo Con La Luna</td><td>Elefante</td><td>Rock</td></tr>
+                        <tr><td>La Condena</td><td>Elefante</td><td>Rock</td></tr>
+                        <tr><td>La Historia Sin Final</td><td>Elefante</td><td>Rock</td></tr>
+                        <tr><td>La Batalla</td><td>Elefante</td><td>Rock</td></tr>
+                        <tr><td>Una Vieja Canción</td><td>Raul Abramzon</td><td>Balada</td></tr>
+                        <tr><td>Eres Tú</td><td>Mocedades</td><td>Balada</td></tr>
+                        <tr><td>Quien Te Cantará</td><td>Mocedades</td><td>Balada</td></tr>
+                        <tr><td>Cama Y Mesa</td><td>Roberto Carlos</td><td>Balada</td></tr>
+                        <tr><td>No Te Apartes de Mi</td><td>Roberto Carlos</td><td>Balada</td></tr>
+                        <tr><td>Detalles</td><td>Roberto Carlos</td><td>Balada</td></tr>
+                        <tr><td>Que Será De Ti</td><td>Roberto Carlos</td><td>Balada</td></tr>
+                        <tr><td>Escandalo</td><td>Hector Lavoe</td><td>Bolero</td></tr>
+                        <tr><td>Remolino</td><td>Amaury Gutierrez</td><td>Trova</td></tr>
+                        <tr><td>Nada Es Para Siempre</td><td>Amaury Gutierrez</td><td>Trova</td></tr>
+                        <tr><td>Señora</td><td>Francisco Céspedes</td><td>Trova</td></tr>
+                        <tr><td>Vida Loca</td><td>Francisco Céspedes</td><td>Trova</td></tr>
+                        <tr><td>Donde Esta El Amor</td><td>Pablo Alborán</td><td>Balada</td></tr>
+                        <tr><td>Saturno</td><td>Pablo Alborán</td><td>Balada</td></tr>
+                        <tr><td>Perfect</td><td>Ed Sheeran</td><td>Balada</td></tr>
+                        <tr><td>Pideme</td><td>Diego Verdaguer</td><td>Banda</td></tr>
+                        <tr><td>Volveré</td><td>Diego Verdaguer</td><td>Banda</td></tr>
+                        <tr><td>Tonta</td><td>Diego Verdaguer</td><td>Banda</td></tr>
+                        <tr><td>Usted Que Haría</td><td>Diego Verdaguer</td><td>Banda</td></tr>
+                        <tr><td>Sexo Pudor Y Lagrima</td><td>Aleks Syntek</td><td>Balada</td></tr>
+                        <tr><td>Te Soñé</td><td>Aleks Syntek</td><td>Balada</td></tr>
+                        <tr><td>Si Tu No Vuelves</td><td>Miguél Bosé</td><td>Balada</td></tr>
+                        <tr><td>Este Mundo Va</td><td>Miguél Bosé</td><td>Balada</td></tr>
+                        <tr><td>Morena Mia</td><td>Miguél Bosé</td><td>Balada</td></tr>
+                        <tr><td>Te Amaré</td><td>Miguél Bosé</td><td>Balada</td></tr>
+                        <tr><td>Sentirme Vivo</td><td>Emmanuel</td><td>Balada</td></tr>
+                        <tr><td>El Rey Azul</td><td>Emmanuel</td><td>Balada</td></tr>
+                        <tr><td>Popurrí Bolero</td><td>Alvaro Carrillo</td><td>Bolero</td></tr>
+                        <tr><td>PopurrÍ Bolero Romantico</td><td>Alvaro Carrillo</td><td>Bolero</td></tr>
+                        <tr><td>Como Te Va Mi Amor</td><td>Hernaldo Zuñiga</td><td>Trova</td></tr>
+                        <tr><td>Procuro Olvidarte</td><td>Hernaldo Zuñiga</td><td>Trova</td></tr>
+                        <tr><td>Te Amo</td><td>Franco De Vita</td><td>Balada</td></tr>
+                        <tr><td>Un Buen Perdedor</td><td>Franco De Vita</td><td>Balada</td></tr>
+                        <tr><td>Un Siglo Sin Ti</td><td>Franco De Vita</td><td>Balada</td></tr>
+                        <tr><td>Tu De Que Vas</td><td>Franco De Vita</td><td>Balada</td></tr>
+                        <tr><td>Frente A Frente</td><td>Enrique Bunbury</td><td>Rock</td></tr>
+                        <tr><td>Infinito</td><td>Enrique Bunbury</td><td>Rock</td></tr>
+                        <tr><td>Aunque No Sea Conmigo</td><td>Enrique Bunbury</td><td>Rock</td></tr>
+                        <tr><td>A Quién</td><td>Nicho Hinojosa</td><td>Trova</td></tr>
+                        <tr><td>Tómame O Déjame</td><td>Nicho Hinojosa</td><td>Trova</td></tr>
+                        <tr><td>Almohada</td><td>José José</td><td>Balada</td></tr>
+                        <tr><td>Lo Que Un Día No Fue</td><td>José José</td><td>Balada</td></tr>
+                        <tr><td>Te Quiero Como Eres</td><td>José José</td><td>Balada</td></tr>
+                        <tr><td>Vamos A Darnos Tiempo</td><td>José José</td><td>Balada</td></tr>
+                        <tr><td>Llora Corazón</td><td>José José</td><td>Balada</td></tr>
+                        <tr><td>Y Como Es Él?</td><td>José José</td><td>Balada</td></tr>
+                        <tr><td>Me Dedique A Perderte</td><td>Alejandro Fernandez</td><td>Balada</td></tr>
+                        <tr><td>No</td><td>Alejandro Fernandez</td><td>Balada</td></tr>
+                        <tr><td>No Se Me Hace Fácil</td><td>Alejandro Fernandez</td><td>Balada</td></tr>
+                        <tr><td>Sin Consideración</td><td>Alejandro Fernandez</td><td>Balada</td></tr>
+                        <tr><td>Contigo Aprendí</td><td>Armando Manzanero</td><td>Balada</td></tr>
+                        <tr><td>Por Debajo De La Mesa</td><td>Luis Miguel</td><td>Balada</td></tr>
+                        <tr><td>Devuelveme El Amor </td><td>Luis Miguel</td><td>Balada</td></tr>
+                        <tr><td>Brillas</td><td>León Larregui</td><td>Rock</td></tr>
+                        <tr><td>Carmín</td><td>León Larregui</td><td>Rock</td></tr>
+                        <tr><td>Ya Lo Se Que Tu Te Vas</td><td>Juan Gabriel</td><td>Balada</td></tr>
+                        <tr><td>La Diferencia</td><td>Juan Gabriel</td><td>Balada</td></tr>
+                        <tr><td>Te Sigo Amando</td><td>Juan Gabriel</td><td>Balada</td></tr>
+                        <tr><td>Pero Que Necesidad</td><td>Juan Gabriel</td><td>Balada</td></tr>
+                        <tr><td>Me Cuesta Tanto Olvidarte</td><td>Mecano</td><td>Balada</td></tr>
+                        <tr><td>La Flaca</td><td>JarabeDePalo</td><td>Rock</td></tr>
+                        <tr><td>Agua</td><td>JarabeDePalo</td><td>Rock</td></tr>
+                        <tr><td>El Lado Oscuro</td><td>JarabeDePalo</td><td>Rock</td></tr>
+                        <tr><td>Dos Días En La Vida</td><td>JarabeDePalo</td><td>Rock</td></tr>
+                        <tr><td>Antología</td><td>Shakira</td><td>Balada</td></tr>
+                        <tr><td>Moscas En La Casa</td><td>Shakira</td><td>Balada</td></tr>
+                        <tr><td>No Me Queda Mas</td><td>Selena</td><td>Balada</td></tr>
+                        <tr><td>Si Una Vez</td><td>Selena</td><td>Balada</td></tr>
+                        <tr><td>Tu Falta De Querer</td><td>Mon Laferte</td><td>Balada</td></tr>
+                        <tr><td>Mi Buen Amor</td><td>Mon Laferte</td><td>Balada</td></tr>
+                        <tr><td>No Soy El Aire</td><td>Benjamin</td><td>Balada</td></tr>
+                        <tr><td>Hoy Ten Miedo De Mi</td><td>Fernando Delgadillo</td><td>Trova</td></tr>
+                        <tr><td>Entre Pairos Y Derivas</td><td>Fernando Delgadillo</td><td>Trova</td></tr>
+                        <tr><td>Brazos De Sol</td><td>Alejandro Filio</td><td>Trova</td></tr>
+                        <tr><td>Esa Mujer</td><td>Alejandro Filio</td><td>Trova</td></tr>
+                        <tr><td>Es Todo</td><td>Alejandro Filio</td><td>Trova</td></tr>
+                        <tr><td>Vienes Con El Sol</td><td>Alejandro Filio</td><td>Trova</td></tr>
+                        <tr><td>Un Milenio Después</td><td>Alejandro Filio</td><td>Trova</td></tr>
+                        <tr><td>Las Cuatro Y Diez</td><td>Luis Eduardo Aute</td><td>Trova</td></tr>
+                        <tr><td>Rosas El Amor</td><td>Luis Eduardo Aute</td><td>Trova</td></tr>
+                        <tr><td>Sin Tu Latido</td><td>Luis Eduardo Aute</td><td>Trova</td></tr>
+                        <tr><td>Hoy Me Retiro</td><td>Lazcano Malo</td><td>Trova</td></tr>
+                        <tr><td>El Breve Espacio</td><td>Pablo Milanés</td><td>Trova</td></tr>
+                        <tr><td>Yolanda</td><td>Pablo Milanés</td><td>Trova</td></tr>
+                        <tr><td>Para Vivir</td><td>Pablo Milanés</td><td>Trova</td></tr>
+                        <tr><td>Ojalá</td><td>Silvio Rodriguez</td><td>Trova</td></tr>
+                        <tr><td>Debo Partirme En Dos</td><td>Silvio Rodriguez</td><td>Trova</td></tr>
+                        <tr><td>La Cancion Del Elegido</td><td>Silvio Rodriguez</td><td>Trova</td></tr>
+                        <tr><td>La Maza</td><td>Silvio Rodriguez</td><td>Trova</td></tr>
+                        <tr><td>El Necio</td><td>Silvio Rodriguez</td><td>Trova</td></tr>
+                        <tr><td>Quien Fuera</td><td>Silvio Rodriguez</td><td>Trova</td></tr>
+                        <tr><td>Hasta La Camisa</td><td>Raúl Ornelas</td><td>Trova</td></tr>
+                        <tr><td>Manual De Lo Prohibido</td><td>Raúl Ornelas</td><td>Trova</td></tr>
+                        <tr><td>Manías</td><td>Raúl Ornelas</td><td>Trova</td></tr>
+                        <tr><td>Las Cartas Sobre La Mesa</td><td>Raúl Ornelas</td><td>Trova</td></tr>
+                        <tr><td>Lagartijas Voladoras</td><td>Raúl Ornelas</td><td>Trova</td></tr>
+                        <tr><td>Otra Vez</td><td>Raúl Ornelas</td><td>Trova</td></tr>
+                        <tr><td>Cada Vez Que Lloras</td><td>Raúl Ornelas</td><td>Trova</td></tr>
+                        <tr><td>Un Beso Grande</td><td>Edgar Oceransky</td><td>Trova</td></tr>
+                        <tr><td>En Otra Vida</td><td>Edgar Oceransky</td><td>Trova</td></tr>
+                        <tr><td>Juro</td><td>Edgar Oceransky</td><td>Trova</td></tr>
+                        <tr><td>Quiero Estar</td><td>Edgar Oceransky</td><td>Trova</td></tr>
+                        <tr><td>Coincidir</td><td>Mexicanto</td><td>Trova</td></tr>
+                        <tr><td>Yo Te Seguiré</td><td>Alberto Plaza</td><td>Trova</td></tr>
+                        <tr><td>Por Ti</td><td>Oscar Chavez</td><td>Trova</td></tr>
+                        <tr><td>El Hombre Al Piano</td><td>Liran Roll</td><td>Rock</td></tr>
+                        <tr><td>No Puedo Mas</td><td>Liran Roll</td><td>Rock</td></tr>
+                        <tr><td>No Tengo Tiempo</td><td>Rodrigo Gonzalez</td><td>Rock</td></tr>
+                        <tr><td>Ayer Me Dijo Un Ave</td><td>Caifanes</td><td>Rock</td></tr>
+                        <tr><td>Beber De Tu Sangre</td><td>Amantes de Lola</td><td>Rock</td></tr>
+                        <tr><td>La Chispa Adecuada</td><td>Heroes del Silencio</td><td>Rock</td></tr>
+                        <tr><td>Kumbala</td><td>Maldita Vencidad</td><td>Rock</td></tr>
+                        
+
+                    
+                    
+                    
+                    </tbody>
+                </table>
+                </div>
+            </div>
+
+
+        </section>
+
+        
+
+
+    </main>
+
+    <footer class="seccion">
+        <div class="container">
+            <div class="row">
+                <div class="columna columna-25 columna-mobile-100">
+                    <img src="img/LogoBlank.png" alt="" class="logo-footer">
+                    
+                </div>
+                
+
+                <div class="columna columna-25 columna-mobile-100">
+                    <h4>
+                        Estamos para serenatas telefónicas y presenciales, eventos privados y público. Contactame al:
+                    </h4>
+                    <ul>
+                        <li>jovanlopezfreekis@gmail.com.mx</li>
+                        <li>+52 722 5692542</li>
+                    </ul>
+                </div>
+
+                <div class="columna columna-25 columna-mobile-100">
+                    <h3>
+                        Redes Sociales
+                    </h3>
+                    <ul class="redes"> 
+                        <li><a href="https://www.facebook.com/mostrojovan/"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="https://twitter.com/mostrojovan/"><i class="fab fa-twitter-square"></i></a></li>
+                        <li><a href="https://www.instagram.com/mostrojovan/?hl=es-la"><i class="fab fa-instagram-square"></i></a></li>
+                        <li><a href="http://youtube.com/MostroJovan"><i class="fab fa-youtube-square"></i></a></li>
+                        <li><a href="https://soundcloud.com/mostrojovan"><i class="fab fa-soundcloud"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="barra-footer">
+            &copy; Pagina creada por JovDesign - Derechos Reservados - 2022
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/funciones.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.search').on('keyup',function(){
+                var searchTerm = $(this).val().toLowerCase();
+                $('#userTbl tbody tr').each(function(){
+                    var lineStr = $(this).text().toLowerCase();
+                    if(lineStr.indexOf(searchTerm) === -1){
+                        $(this).hide();
+                    }else{
+                        $(this).show();
+                    }
+                });
+            });
+        });
+        </script>
+
+
+</body>
+</html>
