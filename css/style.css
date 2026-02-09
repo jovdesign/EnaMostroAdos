@@ -127,6 +127,9 @@ body {
 
 /* MOBILE */
 @media (max-width: 768px) {
+    .hero-section {
+        height: 69vh;
+    }
     .img-desktop {
         display: none; /* Ocultar escritorio */
     }
@@ -165,3 +168,4 @@ body {
         width: 90%;
     }
 }
+
